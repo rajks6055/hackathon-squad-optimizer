@@ -1,4 +1,4 @@
-# 🧠 The Algorithm
+\# 🧠 The Algorithm
 
 Solving the **Maximum Weight Independent Set** problem on general graphs is mathematically NP-Hard. To achieve near-optimal results within the strict 5-minute execution window without triggering a Time Limit Exceeded (TLE) error, this engine utilizes a **Multi-Start Randomized Greedy** approach combined with **Simulated Annealing (SA)**.
 
@@ -37,7 +37,7 @@ stateDiagram-v2
 A standard greedy algorithm is easily trapped by "Hub" nodes (single individuals with massive ratings but maximum conflicts). To break this symmetry, the algorithm recalculates a dynamic heuristic every iteration:
 
 $$
-\text{Heuristic Score} = \left( \frac{\text{Rating}}{\text{Degree} + 1.0} \right) \times \text{Random\_Noise}(0.2, 2.0)
+\text{Heuristic Score} = \left( \frac{\text{Rating}}{\text{Degree} + 1.0} \right) \times \text{Random Noise}(0.2, 2.0)
 $$
 
 This injects controlled chaos, allowing the algorithm to occasionally ignore massive trap nodes and explore vastly different team topologies.
