@@ -1,0 +1,16 @@
+# Node modules (Frontend and Backend)
+node_modules/
+dist/
+
+# C++ Executables and Build Files
+*.exe
+*.o
+*.out
+
+# Environment variables (if you add them later)
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
