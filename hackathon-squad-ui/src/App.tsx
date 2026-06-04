@@ -15,7 +15,7 @@ function App() {
 
     try {
       // Send the raw text data to our Node.js backend
-      const response = await fetch('http://localhost:3000/api/optimize', {
+      const response = await fetch('https://graphsquad-backend.onrender.com/api/optimize', {
         method: 'POST',
         headers: {
           'Content-Type': 'text/plain', // Telling the server to expect raw text
